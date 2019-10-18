@@ -1,0 +1,80 @@
+.clear{
+    clear: both;
+}
+
+body{
+    font-family: "Trebuchet MS";
+}
+
+header{
+    background: #ce0a11;
+}
+
+header img{
+    float: left;
+    vertical-align: middle;
+    margin-right: 25px;
+}
+
+
+h1{
+    padding-top: 50px;
+}
+
+#Description{
+    background: #ffa300;
+    padding-left: 20px;
+}
+
+h3{
+    margin: 0px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    animation-name: h3_rotation;
+    animation-duration: 4s;
+    display: inline-block;
+}
+
+h3:hover{
+    text-transform: uppercase;
+    color: chocolate;
+}
+
+@keyframes h3_rotation {
+    0%{transform: rotate(0deg)}
+    100%{transform: rotate(360deg)}
+}
+
+
+#PDescription {
+    padding-bottom: 25px;
+    margin: 0px;
+}
+
+
+#Contact{
+    background: #feff9d;
+    padding-left: 20px;
+    padding-bottom: 25px;
+}
+
+
+#Movies{
+    background: #c3ff89;
+    padding-left: 20px;
+    padding-bottom: 25px;
+}
+
+
+td{
+    padding-left: 10px;
+}
+
+img{
+    border: green double;
+}
+
+footer{
+    background: lightgrey;
+    padding-left: 20px;
+}
